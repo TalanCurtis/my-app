@@ -42,7 +42,7 @@ passport.deserializeUser(( profile, done)=>{
 //// Auth 0 Endpoint
 app.get('/auth', passport.authenticate('auth0'));
 app.get('/auth/callback', passport.authenticate('auth0', {
-    successRedirect:'http://localhost:3000'
+    successRedirect:'http://localhost:3000/#/Dashboard'
 }))
 
 
