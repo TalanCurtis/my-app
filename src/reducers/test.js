@@ -8,11 +8,11 @@ const initialState = {
 const GET_TEST_INFO = 'GET_TEST_INFO'
 
 // Action Creator
-export function getTestInfo(str) {
+export function getTestInfo() {
     console.log('get test info action triggered');
      return {
          type: GET_TEST_INFO,
-         payload: str
+         payload: 'PLACEHOLDER VALUE'
      }
 }
 
