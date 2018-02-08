@@ -1,0 +1,8 @@
+@import '../variables';
+
+.Header{
+    height: 60px;
+    width: 100vw;
+    background-color: $dark;
+    display: flex;
+}
